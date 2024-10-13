@@ -15,7 +15,7 @@ const jwtSecret = " lkfdvkljdfnvkjdfbvkjlfd";
 app.use(CookieParser());
 app.use(cors({
     credentials: true,
-    origin: 'https://restaurant-website-authentication-api.onrender.com',
+    origin: 'http://localhost:5173',
 
 }));
 mongoose.connect(process.env.MONGO_URL);
